@@ -1,13 +1,54 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>無題ドキュメント</title>
+<meta charset="UTF-8">
+<title>お問合せフォーム</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-練習
+<div class="wp">
+<h1>お問合せフォーム</h1>
+<form action="/my-handling-form-page" method="post">
+<div>
+<label>名前</label>
+<br>
+<input type ="text" class="text" name="×××">
+</div>
 
+
+<div>
+<label>メールアドレス</label>
+<br>
+<input type ="text" class="text" name="×××">
+</div>
+
+<div>
+<label>年齢</label>
+<br>
+<select type ="text" class="dropdown" name="×××">
+<option>選択して下さい</option>
+<script>
+	for(var i =18; i <= 65; i++){
+		document.write("<option>"+i+"歳</option>");
+	}
+</script>
+</select>
+</div>
+
+<div>
+<label>コメント</label>
+<br>
+<textarea cols="35" rows="7" name="×××" class="textarea"></textarea>
+</div>
+
+
+<div>
+<input type ="submit" class="submit" value="送信する">
+</div>
+
+</form>
+</div>
 </body>
 </html>
