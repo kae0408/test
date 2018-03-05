@@ -44,8 +44,8 @@ h1 {
       display: inline-block;
       padding: 0.5em 1em;
       text-decoration: none;
-      background: #F26964;
-      color: #ffffff;
+      background: #ffffff;
+      color: #606060;
       border-bottom: solid 4px #c5cad5;
       border-radius: 6px;
   }
@@ -59,3 +59,25 @@ h1 {
 .textarea{
 	width:200px;
 	}
+
+
+
+.kiji{
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid #eeeeee;
+}
+
+.mt30{
+  margin-top: 30px;
+}
+
+h3{
+  padding: 0;
+  margin: 0;
+}
+
+.kiji h3{
+  padding: 0px 0 10px 0;
+}
